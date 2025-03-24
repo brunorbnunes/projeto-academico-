@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokémons de Sinnoh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet"/>
+  <link rel="shortcut icon" href="img/icone.png" type="image/x-icon"/>
+  <link rel="stylesheet" href="reset.css"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="scrollbar.css" />
+</head>
+
+<body> 
+  <div class="header">
+    <img class="logo" src="img/Pokemon-logo-full.png" alt="Logo Pokémon">
+  </div>
+  
+  <header>
+    <section>
+      <h1>Pokémons de Sinnoh</h1>
+    </section>
+
+    <form id="search-form">
+      <input type="text" name="q" placeholder="Pesquisar..." id="search-input" />
+      <button type="button" id="search-button">Pesquisar</button>
+    </form>
+
+    <div class="pokemon-details">
+      <img src="#" alt="pokemon" class="pokemon__image" />
+        <div class="pokemon__data">
+          <h2 class="pokemon__name"></h2>
+          <p class="pokemon__description"></p>
+        </div>
+    </div>
+
+  </header>
+
+  <main>
+    <ul id="pokemon-list"></ul>
+  </main>
+
+  <script src="script.js"></script>
+  <script src="pokedex-load.js"></script>
+  <script src="search.js"></script>
+
+<a href="pag2_kayky.html">
+    <button>Página anterior</button>
+</a>
+<a href="pag4_Gustavo.html">
+    <button>Próxima página</button>
+    
+</body>
+
+</html>

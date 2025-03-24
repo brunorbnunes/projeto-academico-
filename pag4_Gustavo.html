@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_Gustavo.css">
+    <link rel="shortcut icon" href="img/icone.png" type="image/x-icon">
+    <title>Champion Road</title>
+</head>
+
+<body>
+    <div class="header">
+        <img class="logo" src="img/Pokemon-logo-full.png" alt="Logo Pokémon">
+    </div>
+
+    <h1>Selecione o lider de Ginásio:</h1>
+    <div class="box1">
+        <button id="btn-roark"><img src="./img/i_roark.gif" alt="imagem de Roark"></button>
+        <button id="btn-gardenia"><img src="./img/i_gardenia.gif" alt="imagem de Gardenia"></button>
+        <button id="btn-maylene"><img src="./img/i_maylene.gif" alt="imagem de Maylene"></button>
+        <button id="btn-wake"><img src="./img/i_wake.gif" alt="imagem de Crasher Wake"></button>
+        <button id="btn-fantina"><img src="./img/i_fantina.gif" alt="imagem de Fantina"></button>
+        <button id="btn-byron"><img src="./img/i_byron.gif" alt="imagem de Byron"></button>
+        <button id="btn-candice"><img src="./img/i_candice.png" alt="imagem de Candice"></button>
+        <button id="btn-volkner"><img src="./img/i_volkner.png" alt="imagem de Volkner"></button>
+    </div>
+
+    <h1>Selecione um Membro da Elite Four:</h1>  
+    <div class="box2">
+        <button id="btn-aaron"><img src="./img/i_aaron.gif" alt="imagem de Aaron"></button>
+        <button id="btn-bertha"><img src="./img/i_bertha.gif" alt="imagem de Bertha"></button>
+        <button id="btn-flint"><img src="./img/i_flint.gif" alt="imagem de Flint"></button>
+        <button id="btn-lucian"><img src="./img/i_lucian.gif" alt="imagem de Lucian"></button>
+        <button id="btn-cynthia"><img src="./img/i_cynthiabw.png" alt="imagem de Cynthia"></button>
+    </div>
+
+    <div id="Roarkmodal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Roark (Japanese: ヒョウタ Hyouta) is the Gym Leader of Oreburgh City's Gym, known officially as the Oreburgh
+                Gym. He hands out the Coal Badge to Trainers who defeat him. He specializes in Rock-type Pokémon. He is
+                Byron's son<br>Type:Rock<br>Localization: Oreburgh City</p>
+        </div>
+    </div>
+
+    <div id="Gardeniamodal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Gardenia (Japanese: ナタネ Natane) is the Gym Leader of Eterna City's Gym, known officially as the Eterna Gym. She hands out the Forest Badge to Trainers who defeat her. She specializes in Grass-type Pokémon.<br>Type:Grass<br>Localization:Eterna City</p>
+        </div>
+    </div>
+
+    <div id="Maylenemodal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Maylene (Japanese: スモモ Sumomo) is the Gym Leader of Veilstone City's Gym, known officially as the Veilstone Gym. She hands out the Cobble Badge to Trainers who defeat her. She specializes in Fighting-type Pokémon. <br>Type:Fighting<br>Localization:Veilstone City</p>
+        </div>
+    </div>
+
+    <div id="Wakemodal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Crasher Wake (Japanese: マキシマム仮面 Maximum Mask), otherwise known simply as Wake (Japanese: マキシ Maxi), is the Gym Leader of Pastoria City's Gym, known officially as the Pastoria Gym. He hands out the Fen Badge to Trainers who defeat him. He specializes in Water-type Pokémon.<br>Type:Water<br>Localization:Pastoria City</p>
+        </div>
+    </div>
+
+    <div id="Fantinamodal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>DFantina (Japanese: メリッサ Melissa) is a sophisticated Trainer and Coordinator who specializes in Ghost-type Pokémon. She is the Gym Leader of Hearthome City's Gym, known officially as the Hearthome Gym, and hands out the Relic Badge to those who defeat her. An expert in Pokémon Contests, she usually competes in Master Rank Super Contests and is a member of the Ribbon Syndicate.<br>Type:Ghost<br>Localization:Unknown</p>
+        </div>
+    </div>
+
+    <div id="Byronmodal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Byron (Japanese: トウガン Tougan) is the Gym Leader of Canalave City's Gym, known officially as the Canalave Gym. He hands out the Mine Badge to Trainers who defeat him. He specializes in Steel-type Pokémon. He is Roark's father.<br>Type:Steel<br>Localization:Canalave City,Oreburgh City</p>
+        </div>
+
+    </div>
+
+    <div id="Candicemodal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Candice (Japanese: スズナ Suzuna) is the Gym Leader of Snowpoint City's Gym, known officially as the Snowpoint Gym. She hands out the Icicle Badge to Trainers who defeat her. She specializes in Ice-type Pokémon.<br>Type:Ice<br>Localization:Snowpoint City</p>
+        </div>
+    </div>
+
+    <div id="Volknermodal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Volkner (Japanese: デンジ Denzi) is the Gym Leader of Sunyshore City's Gym, known officially as the Sunyshore Gym. He hands out the Beacon Badge to Trainers who defeat him. He specializes in Electric-type Pokémon.<br>Type:Eletric<br>Localization:Sunyshore City</p>
+        </div>
+    </div>
+
+    <div id="Aaronmodal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Aaron (Japanese: リョウ Ryou) is a Bug-type Trainer and member of the Sinnoh Elite Four.<br>Type:Bug <br>Localization:Unknown</p>
+        </div>
+    </div>
+
+    <div id="Berthamodal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Bertha (Japanese: キクノ Kikuno) is a Ground-type Trainer and member of the Sinnoh Elite Four.<br>Type:Ground<br>Localization:Unknown</p>
+        </div>
+    </div>
+
+    <div id="Flintmodal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Flint (Japanese: オーバ Ōba) is a Fire-type Trainer and member of the Sinnoh Elite Four.<br>Type:Fire<br>Localization:Sunyshore City</p>
+        </div>
+    </div>
+
+    <div id="Lucianmodal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Lucian (Japanese: ゴヨウ Goyou) is a Psychic-type Trainer and member of the Sinnoh Elite Four.<br>Type:Psychic<br>Localization:Unknown</p>
+        </div>
+    </div>
+
+    <div id="Cynthiamodal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Cynthia (Japanese: シロナ Shirona) is an archeologist who is also the Champion of the Sinnoh region's Pokémon League in Pokémon Diamond, Pearl, Platinum, Brilliant Diamond, and Shining Pearl.<br>Type:Unknown<br>Localization:Celestic Town</p>
+        </div>
+    </div>
+
+    <script>
+        var Roarkmodal = document.getElementById("Roarkmodal");
+        var btnRoark = document.getElementById("btn-roark");
+        var spanRoark = Roarkmodal.getElementsByClassName("close")[0];
+        btnRoark.onclick = function () {
+            Roarkmodal.style.display = "block";
+        }
+        spanRoark.onclick = function () {
+            Roarkmodal.style.display = "none";
+        }
+
+        var Gardeniamodal = document.getElementById("Gardeniamodal");
+        var btnGardenia = document.getElementById("btn-gardenia");
+        var spanGardenia = Gardeniamodal.getElementsByClassName("close")[0];
+        btnGardenia.onclick = function () {
+            Gardeniamodal.style.display = "block";
+        }
+        spanGardenia.onclick = function () {
+            Gardeniamodal.style.display = "none";
+        }
+
+        var Maylenemodal = document.getElementById("Maylenemodal");
+        var btnMaylene = document.getElementById("btn-maylene");
+        var spanMaylene = Maylenemodal.getElementsByClassName("close")[0];
+        btnMaylene.onclick = function () {
+            Maylenemodal.style.display = "block";
+        }
+        spanMaylene.onclick = function () {
+            Maylenemodal.style.display = "none";
+        }
+        var Wakemodal = document.getElementById("Wakemodal");
+        var btnWake = document.getElementById("btn-wake");
+        var spanWake = Wakemodal.getElementsByClassName("close")[0];
+        btnWake.onclick = function () {
+            Wakemodal.style.display = "block";
+        }
+        spanWake.onclick = function () {
+            Wakemodal.style.display = "none";
+        }
+        var Fantinamodal = document.getElementById("Fantinamodal");
+        var btnFantina = document.getElementById("btn-fantina");
+        var spanFantina = Fantinamodal.getElementsByClassName("close")[0];
+        btnFantina.onclick = function () {
+            Fantinamodal.style.display = "block";
+        }
+        spanFantina.onclick = function () {
+            Fantinamodal.style.display = "none";
+        }
+        var Byronmodal = document.getElementById("Byronmodal");
+        var btnByron = document.getElementById("btn-byron");
+        var spanByron = Byronmodal.getElementsByClassName("close")[0];
+        btnByron.onclick = function () {
+            Byronmodal.style.display = "block";
+        }
+        spanByron.onclick = function () {
+            Byronmodal.style.display = "none";
+        }
+        var Candicemodal = document.getElementById("Candicemodal");
+        var btnCandice = document.getElementById("btn-candice");
+        var spanCandice = Candicemodal.getElementsByClassName("close")[0];
+        btnCandice.onclick = function () {
+            Candicemodal.style.display = "block";
+        }
+        spanCandice.onclick = function () {
+            Candicemodal.style.display = "none";
+        }
+        var Volknermodal = document.getElementById("Volknermodal");
+        var btnVolkner = document.getElementById("btn-volkner");
+        var spanVolkner = Volknermodal.getElementsByClassName("close")[0];
+        btnVolkner.onclick = function () {
+            Volknermodal.style.display = "block";
+        }
+        spanVolkner.onclick = function () {
+            Volknermodal.style.display = "none";
+        }
+
+        var Aaronmodal = document.getElementById("Aaronmodal");
+        var btnAaron = document.getElementById("btn-aaron");
+        var spanAaron = Aaronmodal.getElementsByClassName("close")[0];
+        btnAaron.onclick = function () {
+            Aaronmodal.style.display = "block";
+        }
+        spanAaron.onclick = function () {
+            Aaronmodal.style.display = "none";
+        }
+
+        var Berthamodal = document.getElementById("Berthamodal");
+        var btnBertha = document.getElementById("btn-bertha");
+        var spanBertha = Berthamodal.getElementsByClassName("close")[0];
+        btnBertha.onclick = function () {
+            Berthamodal.style.display = "block";
+        }
+        spanBertha.onclick = function () {
+            Berthamodal.style.display = "none";
+        }
+
+        var Flintmodal = document.getElementById("Flintmodal");
+        var btnFlint = document.getElementById("btn-flint");
+        var spanFlint = Flintmodal.getElementsByClassName("close")[0];
+        btnFlint.onclick = function () {
+            Flintmodal.style.display = "block";
+        }
+        spanFlint.onclick = function () {
+            Flintmodal.style.display = "none";
+        }
+
+        var Lucianmodal = document.getElementById("Lucianmodal");
+        var btnLucian = document.getElementById("btn-lucian");
+        var spanLucian = Lucianmodal.getElementsByClassName("close")[0];
+        btnLucian.onclick = function () {
+            Lucianmodal.style.display = "block";
+        }
+        spanLucian.onclick = function () {
+            Lucianmodal.style.display = "none";
+        }
+
+        var Cynthiamodal = document.getElementById("Cynthiamodal");
+        var btnCynthia = document.getElementById("btn-cynthia");
+        var spanCynthia = Cynthiamodal.getElementsByClassName("close")[0];
+        btnCynthia.onclick = function () {
+            Cynthiamodal.style.display = "block";
+        }
+        spanCynthia.onclick = function () {
+            Cynthiamodal.style.display = "none";
+        }
+    </script>
+    <a href="pag3_Isa.html">
+        <button class="botao">Página anterior</button>
+    </a>
+    <a href="pag5_Caua.html">
+        <button class="botao">Próxima página</button>
+    </a>
+</body>
+
+</html>
