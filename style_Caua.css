@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+h1, h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+p{  
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.estilo {
+    border-style: dotted;
+    border-width: 5px;
+    background-image: url(img/tallgrass.jpg);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.final{
+    font-size: 30px;
+    height: 50vh;
+}
+
+button{
+    border-radius: 10px;
+}
